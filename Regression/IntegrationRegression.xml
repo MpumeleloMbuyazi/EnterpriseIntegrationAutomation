@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="CreateServiceOrder">
+        <classes>
+            <class name = "BritBox.Testing.TMF641_CreateServiceOrder"/>
+            <class name="BritBox.Testing.TokenClientAPI"/>
+            <class name="O2F.ServiceOrdering"/>
+        </classes>
+    </test>
+</suite>

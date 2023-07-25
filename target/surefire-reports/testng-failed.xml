@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="CreateServiceOrder(failed)" verbose="0">
+    <classes>
+      <class name="BritBox.Testing.TokenClientAPI">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="getTokenIncorrectToken"/>
+          <include name="getToken"/>
+        </methods>
+      </class> <!-- BritBox.Testing.TokenClientAPI -->
+      <class name="BritBox.Testing.TMF641_CreateServiceOrder">
+        <methods>
+          <include name="post_CreateServiceOrder"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- BritBox.Testing.TMF641_CreateServiceOrder -->
+    </classes>
+  </test> <!-- CreateServiceOrder(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

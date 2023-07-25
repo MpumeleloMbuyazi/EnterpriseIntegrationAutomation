@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 90.174 s <<< FAILURE! - in TestSuite
+post_CreateServiceOrder(BritBox.Testing.TMF641_CreateServiceOrder)  Time elapsed: 43.31 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [There is no data found for this corelationId.] but found [{
+  "response" : "There is no data found for this corelationId."
+}]
+	at BritBox.Testing.TMF641_CreateServiceOrder.post_CreateServiceOrder(TMF641_CreateServiceOrder.java:94)
+
+getToken(BritBox.Testing.TokenClientAPI)  Time elapsed: 1.549 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [28488644] but found [null]
+	at BritBox.Testing.TokenClientAPI.getToken(TokenClientAPI.java:55)
+
+getTokenIncorrectToken(BritBox.Testing.TokenClientAPI)  Time elapsed: 1.283 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <200>
+     but: was <401>
+	at BritBox.Testing.TokenClientAPI.getTokenIncorrectToken(TokenClientAPI.java:71)
+
