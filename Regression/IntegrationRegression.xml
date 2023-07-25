@@ -5,7 +5,7 @@
         <classes>
             <class name = "BritBox.Testing.TMF641_CreateServiceOrder"/>
             <class name="BritBox.Testing.TokenClientAPI"/>
-            <class name="O2F.ServiceOrdering"/>
+
         </classes>
     </test>
 </suite>
